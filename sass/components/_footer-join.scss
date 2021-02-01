@@ -1,0 +1,35 @@
+.footer-welcom {
+  display: inline-block;
+}
+.footer-main {
+  display: flex;
+  align-items: baseline;
+}
+.footer-join {
+    color: #ffffff;
+    width: 145px;
+    height: 16px;
+    font-family: $main-font-family;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline;
+    text-align: center;
+  }
+  
+  
+  .clients-list-f {
+    display: flex;
+    margin-top: 20px;
+  }
+  .f-icon:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .m-link-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  

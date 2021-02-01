@@ -1,0 +1,38 @@
+.main-items {
+    justify-content: center;
+    width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+      }
+      
+      &::before {
+        content: "";
+        width: 270px;
+        height: 120px;
+        display: block;
+        padding: 25px 100px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        margin-bottom: 30px;
+        background-color: #f5f4fa;
+      }
+      &:nth-child(1):before {
+        background-image: url(../images/antenna.svg);
+      }
+      
+      &:nth-child(2):before {
+        background-image: url(../images/clock.svg);
+      }
+      &:nth-child(3):before {
+        background-image: url(../images/diagram.svg);
+      }
+      
+      &:nth-child(4):before {
+        background-image: url(../images/astronaut.svg);
+      }
+      & .main-title-h3{
+        margin-bottom: 10px;
+      }
+  }
+  
