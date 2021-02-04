@@ -44,6 +44,12 @@ header {
   justify-items: center;
 }
 
+@media (min-width: 768px) {
+  .header_button {
+    display: none;
+  }
+}
+
 .header_menu_icon {
   width: 40px;
   height: 40px;
@@ -55,13 +61,81 @@ header {
   display: none;
 }
 
+@media (min-width: 768px) {
+  .nav-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .header-adress {
   display: none;
 }
 
-.logo {
-  margin-top: 16px;
-  margin-bottom: 16px;
+@media (min-width: 768px) {
+  .header-adress {
+    display: inline-block;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .item-links:not(:last-child) {
+    margin-right: 50px;
+  }
+  .header-contacts {
+    text-decoration: none;
+    font-style: normal;
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 32px 0;
+  }
+  .header-contacts:focus, .header-contacts:hover {
+    color: #2196f3;
+  }
+  .header-links {
+    position: relative;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-links:focus, .header-links:hover {
+    color: #2196f3;
+  }
+  .header-links::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px 2px;
+    background-color: #2196f3;
+    opacity: 0;
+    -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-links:focus::after, .header-links:hover::after {
+    opacity: 1;
+  }
 }
 
 .logo {
@@ -74,6 +148,15 @@ header {
   width: 134px;
   margin-top: 16px;
   margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+    margin-right: 88px;
+    width: 134px;
+    height: 28px;
+  }
 }
 
 .logo-colortext_bottom {
