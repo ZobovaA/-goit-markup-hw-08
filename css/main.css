@@ -84,10 +84,8 @@ header {
             flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-top: 21px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    padding-top: 21px;
+    margin-left: auto;
   }
 }
 
@@ -104,6 +102,7 @@ header {
     margin-right: 50px;
   }
   .header-contacts {
+    display: block;
     text-decoration: none;
     font-style: normal;
     color: #757575;
@@ -115,6 +114,9 @@ header {
   }
   .header-contacts:focus, .header-contacts:hover {
     color: #2196f3;
+  }
+  .header-contacts:not(:last-child) {
+    margin-bottom: 10px;
   }
   .header-links {
     position: relative;
