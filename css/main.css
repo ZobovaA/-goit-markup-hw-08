@@ -26,47 +26,42 @@ body {
 header {
   background: #ffffff;
   border: 1px solid #ececec;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-header.container {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-header .header-nav-links {
-  display: none;
+.header_button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin-left: auto;
+  justify-items: center;
 }
 
-header .header-contacts {
-  display: none;
-}
-
-.header_mobile_menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header_mobile_menu .header_menu_icon {
+.header_menu_icon {
   width: 40px;
   height: 40px;
   fill: currentColor;
   margin-left: auto;
 }
 
-.header_mobile_menu .header_button {
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-  margin-left: auto;
-  justify-items: center;
+.nav-section {
+  display: none;
+}
+
+.header-adress {
+  display: none;
+}
+
+.logo {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .logo {
@@ -77,6 +72,8 @@ header .header-contacts {
   letter-spacing: 0.03em;
   color: #2196f3;
   width: 134px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .logo-colortext_bottom {
@@ -1136,7 +1133,7 @@ label {
 }
 
 .container {
-  width: 450px;
+  min-width: 450px;
   margin: 0 auto;
   padding: 0 15px;
 }

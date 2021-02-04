@@ -1,37 +1,39 @@
 header{
   background: #ffffff;
   border: 1px solid #ececec;
-
-  &.container{
-  display: flex;
-  align-items: center;
-  }
-
-  .header-nav-links {
-    display: none;
-  }
-  .header-contacts{
-    display: none;
-  }
+  margin-right: auto;
+  margin-left: auto;
+  
 }
 
-.header_mobile_menu{
+.container{
   display: flex;
-  align-items: center;
+}
 
-  .header_menu_icon{
-    width: 40px;
-    height: 40px;
-    fill: currentColor;
-    margin-left: auto;
-    }
-    
-    .header_button{
-      background-color: transparent;
-      cursor: pointer;
-      border: none;
-    
-      margin-left: auto;
-      justify-items: center;
-    }
+.header_button{
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin-left: auto;
+  justify-items: center;
+ }
+ 
+ .header_menu_icon{
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
+  margin-left: auto;
+  }
+  
+  .nav-section{
+    display: none;
+  }
+ 
+  .header-adress{
+    display: none;
+  }
+
+  .logo{
+    margin-top: 16px;
+    margin-bottom: 16px;
   }
