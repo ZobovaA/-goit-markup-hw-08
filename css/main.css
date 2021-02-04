@@ -28,122 +28,55 @@ header {
   border: 1px solid #ececec;
 }
 
-.header-adress {
+header.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-nav-links {
+  display: none;
+}
+
+header .header-contacts {
+  display: none;
+}
+
+.header_mobile_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_mobile_menu .header_menu_icon {
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
   margin-left: auto;
-  font-family: "Roboto", sans-serif;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-transition: #2196f3 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: #2196f3 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-header {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #afb1b8;
-}
-
-.link-header:hover, .link-header:focus {
-  color: #2196f3;
-}
-
-.header-main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header-nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.item-links:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header-contacts {
-  text-decoration: none;
-  font-style: normal;
-  color: #757575;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 32px 0;
-}
-
-.header-contacts:focus, .header-contacts:hover {
-  color: #2196f3;
-}
-
-.header-links {
-  position: relative;
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  color: #212121;
-  padding: 32px 0;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-links:focus, .header-links:hover {
-  color: #2196f3;
-}
-
-.header-links::after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px 2px;
-  background-color: #2196f3;
-  opacity: 0;
-  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-links:focus::after, .header-links:hover::after {
-  opacity: 1;
+.header_mobile_menu .header_button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin-left: auto;
+  justify-items: center;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-right: 93px;
-  width: 145px;
+  width: 134px;
 }
 
 .logo-colortext_bottom {
