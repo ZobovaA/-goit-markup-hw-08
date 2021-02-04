@@ -38,8 +38,10 @@ header{
   .header-adress{
     display: none;
     @media (min-width:768px){
-      display: inline-block;
+      display: block;
       margin-left: auto;
+      
+           
       
     }
   }
@@ -64,8 +66,8 @@ header{
       font-size: 14px;
       line-height: 1.14;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      padding: 32px 0;
-  
+      
+
       &:focus,
       &:hover {
         color: $accent-color;
@@ -78,8 +80,10 @@ header{
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
+      letter-spacing: 0.02em;
       color: $main-fonts-color;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      padding: 32px 0;
   
       &:focus,
       &:hover {
@@ -89,7 +93,7 @@ header{
       &::after {
         content: "";
         position: absolute;
-        bottom: -3px;
+        bottom: -1px;
         left: 0;
         display: block;
         width: 100%;
