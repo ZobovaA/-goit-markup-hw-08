@@ -1,12 +1,9 @@
 .main-section-our-advantages{
-  padding-top: 94px;
+  padding-top: 60px;
 
 }
 .main-advantages-description{
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+
   font-size: 14px;
   line-height: 1.7;
   color: $secondary-fonts-color;
@@ -14,8 +11,10 @@
 
 
 .main-advantages-title{
+  text-align: center;
   color: $main-fonts-color;
   font-weight: 700;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.19;
   text-transform: uppercase;

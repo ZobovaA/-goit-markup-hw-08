@@ -734,9 +734,8 @@ header {
 
 .main-advant-items {
   margin-bottom: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 450px;
 }
 
@@ -769,26 +768,20 @@ header {
 }
 
 .main-section-our-advantages {
-  padding-top: 94px;
+  padding-top: 60px;
 }
 
 .main-advantages-description {
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
   font-size: 14px;
   line-height: 1.7;
   color: #757575;
 }
 
 .main-advantages-title {
+  text-align: center;
   color: #212121;
   font-weight: 700;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.19;
   text-transform: uppercase;
