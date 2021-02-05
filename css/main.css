@@ -732,22 +732,12 @@ header {
   margin-bottom: 0;
 }
 
-.main-advant-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .main-advant-items {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 270px;
-}
-
-.main-advant-items:not(:last-child) {
-  margin-right: 30px;
+  width: 450px;
 }
 
 .main-advant-items:nth-child(1):before {
@@ -756,10 +746,10 @@ header {
 
 .main-advant-items::before {
   content: "";
-  width: 270px;
+  width: 450px;
   height: 120px;
   display: block;
-  padding: 25px 100px;
+  padding: 25px 190px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin-bottom: 30px;

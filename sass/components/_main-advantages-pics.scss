@@ -1,26 +1,20 @@
 
-.main-advant-list {
-  display: flex;
-  
-}
+
 .main-advant-items {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   justify-content: center;
-  width: 270px;
+  width: 450px;
   
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
   &:nth-child(1):before {
     background-image: url(../images/antenna.svg);
   }
   
   &::before {
     content: "";
-    width: 270px;
+    width: 450px;
     height: 120px;
     display: block;
-    padding: 25px 100px;
+    padding: 25px 190px;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     margin-bottom: 30px;
@@ -29,6 +23,7 @@
   
   &:nth-child(2):before {
     background-image: url(../images/clock.svg);
+    
   }
   &:nth-child(3):before {
     background-image: url(../images/diagram.svg);
