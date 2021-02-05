@@ -413,10 +413,6 @@ header {
   margin-bottom: 8px;
 }
 
-.footer-items {
-  display: block;
-}
-
 .footer-items:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -424,6 +420,10 @@ header {
 .footer-contacts-text {
   display: block;
   text-align: center;
+}
+
+.footer-contacts {
+  margin-bottom: 60px;
 }
 
 .subscribe-container {
@@ -862,14 +862,14 @@ header {
 }
 
 .footer-welcom {
-  display: inline-block;
-}
-
-.footer-main {
   display: block;
+  padding-bottom: 60px;
 }
 
 .footer-join {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: #ffffff;
   width: 145px;
   height: 16px;
@@ -878,9 +878,6 @@ header {
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
-  text-align: center;
-  display: inline;
-  text-align: center;
 }
 
 .clients-list-f {
@@ -888,6 +885,9 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .f-icon:not(:last-child) {

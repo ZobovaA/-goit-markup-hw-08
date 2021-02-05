@@ -44,9 +44,6 @@
     color: #ffffff;
     margin-bottom: 8px;
   }
-   .footer-items{
-display: block;
-  }
 
    .footer-items:not(:last-child){
   margin-bottom: 8px;
@@ -55,4 +52,8 @@ display: block;
   .footer-contacts-text{
     display: block;
     text-align: center;
+  }
+
+  .footer-contacts{
+margin-bottom: 60px;
   }
