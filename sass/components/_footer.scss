@@ -1,36 +1,30 @@
+.footer-main{
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .footer {
-      margin-right: auto;
-      margin-left: auto;
+
+      display: block;
       padding-top: 60px;
       padding-bottom: 60px;
       background-color: $top-bottom-background-color;
       font-family: $main-font-family;
+     
     }
-
-    .footer-contacts {
-        margin-right: 70px;
-      }
-      
-    .footer-list {
-    margin-top: 20px;
-    display: inline-block;
-  }
   
-  .footer-mail {
+  .logo-footer{
     display: block;
-    margin-bottom: 9px;
-    line-height: 1.7;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
-  
-  .footer-adress {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: #ffffff;
+
+  .footer-list{
+    display: block;
+    margin: 0 auto;
   }
-  
+    
   .footer-contacts-text{
     text-decoration: none;
     font-style: normal;
@@ -39,19 +33,26 @@
     margin-top: 9px;
     font-size: 14px;
   }
-  
-  
-  .contact-footers-item {
-    display: inline-block;
-    margin-bottom: 9px;
-    margin-top: 9px;
+
+  .footer-adress {
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 8px;
   }
-  
-  .footer-phone {
-    margin-bottom: 60px;
+   .footer-items{
+display: block;
   }
-  
-  .footer .logo {
+
+   .footer-items:not(:last-child){
+  margin-bottom: 8px;
+  }
+
+  .footer-contacts-text{
     display: block;
+    text-align: center;
   }
-  
