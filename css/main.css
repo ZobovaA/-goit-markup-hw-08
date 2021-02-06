@@ -746,6 +746,11 @@ header {
   height: 45.4px;
 }
 
+.main-advant-list {
+  display: table;
+  margin: 0 auto;
+}
+
 .main-advant-items {
   margin-bottom: 30px;
   margin-left: auto;
