@@ -31,6 +31,9 @@ header{
   margin-left: auto;
   }
   
+  .header_menu_icon:hover{
+    fill: $accent-color;
+  }
   .nav-section{
     display: none;
     @media (min-width:768px){

@@ -63,6 +63,10 @@ header {
   margin-left: auto;
 }
 
+.header_menu_icon:hover {
+  fill: #2196f3;
+}
+
 .nav-section {
   display: none;
 }
