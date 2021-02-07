@@ -336,6 +336,31 @@ header {
   background-size: cover;
 }
 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .overlay {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/index_mobile/header_img@2x.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/index_mobile/header_img@2x.png);
+  }
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    max-width: 768px;
+    height: 400px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero_tablet.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_tablet.png);
+  }
+}
+
+@media (min-width: 1600px) {
+  .overlay {
+    max-width: 1600px;
+    height: 600px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero_tablet@2x.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_tablet@2x.png);
+  }
+}
+
 .hero-heading {
   width: 360px;
   font-weight: 900;
