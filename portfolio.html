@@ -99,14 +99,17 @@
             <li class="portfolio-card-set-items">
               <a class="portfolio-card-link" href="">
                 <div class="portfolio-images">
-                <img class="img"
-                  src="images/portfolio_mobile/techno450.jpg"
-                  srcset="images/portfolio_mobile/techno450@2x.jpg 2x"
-                  alt="Tecnokryak"
-                  width="450"
-                  height="294"
-                />
-                <div class="portfolio-overlay">Технокряк это современная площадка распространения коронавируса. 
+                
+                  <picture >
+                    <source srcset="/images/portfolio_mobile/techno450.jpg 1x, /images/portfolio_mobile/techno450@2x.jpg" media="(max-width: 450px)" />
+                    <img class="our-team-jpg" src="/images/portfolio_mobile/techno450.jpg" alt="Techno_kryak" width="450" />
+    
+                    <source srcset="/images/portfolio_tablet/techno354.jpg 1x, /images/portfolio_tablet/techno354@2x.jpg 2x " media="(min-width:768px)" />
+                    <source srcset="/images/techno.jpg 1x,/images/portfolio/techno370@2x.jpg 2x" media="(min-width:1600px)" />
+    
+                  </picture>
+
+                 <div class="portfolio-overlay">Технокряк это современная площадка распространения коронавируса. 
                   Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера 
                   конкурентов.</div>
 
@@ -120,12 +123,16 @@
             <li class="portfolio-card-set-items">
               <a class="portfolio-card-link" href="">
                 <div class="portfolio-images">
-                  <img class="img"
-                  src="images/poster.jpg"
-                  alt="Photo of Poster"
-                  width="370"
-                  height="294"
-                />
+
+                  <picture >
+                    <source srcset="/images/portfolio_mobile/poster450.jpg 1x, /images/portfolio_mobile/poster450@2x.jpg" media="(max-width: 450px)" />
+                    <img class="our-team-jpg" src="/images/portfolio_mobile/poster450.jpg" alt="UI Designer" width="450" />
+    
+                    <source srcset="/images/portfolio_tablet/poster354.jpg 1x, /images/portfolio_tablet/poster354.jpg@2x.jpg 2x " media="(min-width:768px)" />
+                    <source srcset="/images/poster.jpg 1x, /images/portfolio/poster370@2x.jpg 2x" media="(min-width:1600px)" />
+    
+                  </picture>
+
                 <div class="portfolio-overlay">Технокряк это современная площадка распространения коронавируса. 
                   Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера 
                   конкурентов.</div>

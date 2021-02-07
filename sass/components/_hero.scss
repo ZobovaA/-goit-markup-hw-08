@@ -43,8 +43,19 @@
             to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-          ), url(../images/hero_tablet.png);
+          ), url(../images/index_tablet/hero_tablet.png);
 
+        }
+
+        @media(min-resolution: 2dppx){
+          .overlay{
+          
+            background-image: linear-gradient(
+              to right,
+              rgba(47, 48, 58, 0.4),
+              rgba(47, 48, 58, 0.4)
+            ), url(../images/index_tablet/hero_tablet@2x.png);
+          }
         }
       }
 
@@ -56,8 +67,19 @@
             to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-          ),url(../images/hero_tablet@2x.png);
+          ),url(../images/fon.png);
 
+        }
+
+        @media(min-resolution: 2dppx){
+          .overlay{
+          
+            background-image: linear-gradient(
+              to right,
+              rgba(47, 48, 58, 0.4),
+              rgba(47, 48, 58, 0.4)
+            ), url(../images/fon@2x.png);
+          }
         }
       }
  
