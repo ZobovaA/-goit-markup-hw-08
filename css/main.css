@@ -1009,6 +1009,13 @@ header {
     width: 270px;
     margin-left: unset;
     margin-top: unset;
+    margin-bottom: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-advant-items:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -1061,6 +1068,7 @@ header {
 @media (min-width: 1200px) {
   .main-section-our-advantages {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
