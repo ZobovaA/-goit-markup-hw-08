@@ -844,6 +844,13 @@ header {
   padding-bottom: 60px;
 }
 
+@media (min-width: 1200px) {
+  .main-section-clients {
+    padding-top: 94x;
+    padding-bottom: 94px;
+  }
+}
+
 .clients {
   display: block;
 }
@@ -869,13 +876,31 @@ header {
           justify-content: center;
 }
 
+@media (min-width: 1200px) {
+  .clients-list {
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
+  }
+}
+
 .clients-link {
   margin-top: 15px;
   width: 210px;
 }
 
+@media (min-width: 1200px) {
+  .clients-link {
+    margin-top: unset;
+    width: 170px;
+  }
+}
+
 .clients-link:nth-child(2n + 1) {
   margin-right: 15px;
+}
+
+.clients-link:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients-master {
@@ -895,6 +920,12 @@ header {
   border-radius: 4%;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1200px) {
+  .clients-master {
+    width: 170px;
+  }
 }
 
 .icon-clients {
@@ -1186,6 +1217,13 @@ header {
   background-color: #f5f4fa;
   padding-bottom: 60px;
   padding-top: 60px;
+}
+
+@media (min-width: 1200px) {
+  .main-section-team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .main-ourteam-description-index {
