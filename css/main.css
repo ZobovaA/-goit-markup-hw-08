@@ -491,6 +491,12 @@ header {
   margin: 0 auto;
 }
 
+@media (min-width: 1200px) {
+  .footer-list {
+    display: inline-block;
+  }
+}
+
 .footer-contacts-text {
   text-decoration: none;
   font-style: normal;
