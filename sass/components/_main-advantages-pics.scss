@@ -1,10 +1,12 @@
 .main-advant-list{
   
-    display: table;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     @media(min-width: 768px){
       display: flex;
+      flex-direction: unset;
       flex-wrap: wrap;
       justify-content: center;
       flex-basis: calc(100%/2-30px);
@@ -12,7 +14,7 @@
       margin-top: -15px;
           }
 
-          @media (min-width:1600px) {
+          @media (min-width:1200px) {
             width: 1170px;
             flex-wrap: unset;
             justify-content: center;
@@ -32,6 +34,16 @@
     margin-top: 15px;
     width: 354px;
   }
+
+  @media (min-width:1200px) {
+    width: 270px;
+    margin-left: unset;
+    margin-top: unset;
+    
+    
+  }
+
+
   
   &:nth-child(1):before {
     background-image: url(../images/antenna.svg);
@@ -51,6 +63,11 @@
     @media(min-width:768px) {
       width: 354px;
       padding: 25px 142px;
+    }
+     
+    @media (min-width:1200px) {
+      width: 270px;
+      padding: 25px 100px;
     }
   }
   
