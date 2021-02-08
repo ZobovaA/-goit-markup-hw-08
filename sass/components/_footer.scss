@@ -2,6 +2,12 @@
   display: block;
   margin-left: 0;
   margin-right: 0;
+
+  @media (min-width:768px){
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
 }
 
 .foter-blocks{
@@ -65,10 +71,21 @@
   .footer-contacts{
 margin-bottom: 60px;
 @media (min-width:768px) {
-  display: flex;
-  flex-direction: column;
-  margin-right: 0;
+margin-left: 76px;
   
 }
   }
+
+@media(min-width:768px){
+  .footer-welcom{
+    margin-left: 165px;
+  }
+  .subscribe-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 166px;
+   
+  }
+}
 

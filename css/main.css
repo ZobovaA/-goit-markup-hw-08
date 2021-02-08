@@ -418,6 +418,16 @@ header {
 }
 
 @media (min-width: 768px) {
+  .footer-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
   .foter-blocks {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -479,6 +489,15 @@ header {
 
 @media (min-width: 768px) {
   .footer-contacts {
+    margin-left: 76px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-welcom {
+    margin-left: 165px;
+  }
+  .subscribe-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -486,7 +505,10 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 166px;
   }
 }
 
