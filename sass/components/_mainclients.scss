@@ -21,17 +21,14 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-left: -15px;
-      margin-top: -15px;
-    }
+      }
 
     .clients-link{
-      margin-left: 15px;
       margin-top: 15px;
       width: 210px;
 
       }
-      .clients-link:nth-child(1n) {
+      .clients-link:nth-child(2n + 1) {
       margin-right: 15px;
       }
 

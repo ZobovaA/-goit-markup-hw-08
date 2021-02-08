@@ -843,17 +843,14 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: -15px;
-  margin-top: -15px;
 }
 
 .clients-link {
-  margin-left: 15px;
   margin-top: 15px;
   width: 210px;
 }
 
-.clients-link:nth-child(1n) {
+.clients-link:nth-child(2n + 1) {
   margin-right: 15px;
 }
 
@@ -1068,6 +1065,7 @@ header {
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
   width: 450px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
