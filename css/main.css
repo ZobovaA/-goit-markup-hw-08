@@ -922,6 +922,10 @@ header {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.clients-master:hover, .clients-master:focus {
+  color: #2196f3;
+}
+
 @media (min-width: 1200px) {
   .clients-master {
     width: 170px;
