@@ -1194,6 +1194,62 @@ header {
   display: none;
 }
 
+@media (min-width: 1200px) {
+  .main-section-wedo {
+    display: block;
+  }
+  .we-do-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .main-section-wedo {
+    padding-bottom: 94px;
+  }
+  .main-wedo-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-wedo {
+    position: relative;
+  }
+  .main-wedo-images {
+    display: block;
+  }
+  .main-wedo-overlay {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    left: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  .main-wedo-list:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
 .footer-welcom {
   display: block;
   padding-bottom: 60px;
@@ -1637,5 +1693,11 @@ label {
   font-size: 28px;
   line-height: 1.17;
   margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .main-title-h2 {
+    margin-bottom: 50px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
