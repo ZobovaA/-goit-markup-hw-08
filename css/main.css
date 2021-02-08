@@ -451,6 +451,13 @@ header {
   }
 }
 
+@media (min-width: 768px) and (min-width: 1200px) {
+  .footer-main {
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
+  }
+}
+
 @media (min-width: 768px) {
   .foter-blocks {
     display: -webkit-box;
