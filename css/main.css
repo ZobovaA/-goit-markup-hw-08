@@ -486,6 +486,15 @@ header {
   margin-bottom: 20px;
 }
 
+@media (min-width: 1200px) {
+  .logo-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 0;
+  }
+}
+
 .footer-list {
   display: block;
   margin: 0 auto;

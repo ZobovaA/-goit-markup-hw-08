@@ -40,6 +40,11 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    @media (min-width:1200px) {
+      display: flex;
+      margin-left: 0;
+    }
+
   }
 
   .footer-list{
