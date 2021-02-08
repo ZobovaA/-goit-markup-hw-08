@@ -606,8 +606,33 @@ header {
   margin-bottom: 15px;
 }
 
+@media (min-width: 768px) {
+  .portfolio-items:nth-child(-n + 3) {
+    margin-bottom: unset;
+  }
+}
+
 .portfolio-button-block {
   margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .portfolio-button-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
 }
 
 .portfolio-text1 {
@@ -646,9 +671,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 @media (min-width: 768px) {
