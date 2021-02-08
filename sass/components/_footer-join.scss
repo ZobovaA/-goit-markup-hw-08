@@ -1,11 +1,24 @@
 .footer-welcom {
   display: block;
   padding-bottom: 60px;
+  
+
+  @media(min-width:768px){
+    .footer-welcom{
+      margin-left: 165px;
+    }
+    @media (min-width:1200px) {
+      padding-bottom: unset;
+      margin-left: unset;
+    }
+    
 }
 
 .footer-form-block{
   margin: 0 auto;
 }
+
+
 
 .footer-join{
   display: block;
@@ -38,3 +51,4 @@
   margin-bottom: 20px;
 }
 
+}

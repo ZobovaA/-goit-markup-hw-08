@@ -29,6 +29,10 @@
       padding-bottom: 130px;
       background-color: $top-bottom-background-color;
       font-family: $main-font-family;
+
+      @media (min-width:1200px) {
+         padding-bottom: 60px;
+      }
      
     }
   
@@ -76,20 +80,15 @@
 margin-bottom: 60px;
 @media (min-width:768px) {
 margin-left: 76px;
+@media (min-width:1200px) {
+  margin-right: 70px;
+  margin-left: unset;
+}
   
 }
   }
 
-@media(min-width:768px){
-  .footer-welcom{
-    margin-left: 165px;
-  }
-  .subscribe-container{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin-left: 166px;
-   
-  }
-}
+
+  
+
 
