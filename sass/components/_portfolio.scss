@@ -42,15 +42,37 @@ margin-bottom: 15px;
   
  
    .portfolio-card-set{
-    display: table;
-    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (min-width:768px) {
+      flex-direction: unset;
+      flex-wrap: wrap;
+    }
 
   }
   
   .portfolio-card-set-items:not(:last-child){
     margin-bottom: 30px;
+
+   }
+
+  @media(min-width:768px){
+    .portfolio-card-set-items:nth-child(2n+1){
+      margin-right: 15px;
+    }
+
   }
 
+  .portfolio-card-set-items  {
+    width: 450px;
+
+    @media (min-width:768px) {
+      width: 354px;
+    }
+  }
+ 
 
   
   .portfolio-card-link{
@@ -121,6 +143,11 @@ margin-bottom: 15px;
     display: block;
     position: relative;
     overflow: hidden;
+
+    @media (min-width:768px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   .portfolio-card-link:focus .portfolio-overlay,
   .portfolio-card-link:hover .portfolio-overlay {

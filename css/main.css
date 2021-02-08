@@ -639,12 +639,47 @@ header {
 }
 
 .portfolio-card-set {
-  display: table;
-  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .portfolio-card-set {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .portfolio-card-set-items:not(:last-child) {
   margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .portfolio-card-set-items:nth-child(2n+1) {
+    margin-right: 15px;
+  }
+}
+
+.portfolio-card-set-items {
+  width: 450px;
+}
+
+@media (min-width: 768px) {
+  .portfolio-card-set-items {
+    width: 354px;
+  }
 }
 
 .portfolio-card-link {
@@ -724,6 +759,16 @@ header {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .portfolio-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .portfolio-card-link:focus .portfolio-overlay,
