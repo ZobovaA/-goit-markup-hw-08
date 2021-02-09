@@ -458,6 +458,16 @@ header {
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .footer-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
     -ms-flex-wrap: unset;
         flex-wrap: unset;
   }
