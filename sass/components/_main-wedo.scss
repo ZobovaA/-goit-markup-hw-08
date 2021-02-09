@@ -10,8 +10,7 @@
 
   .we-do-block{
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
@@ -23,7 +22,9 @@
     padding-bottom: 94px;
   }
     .main-wedo-ul {
+      width: 1200px;
       display: flex;
+      justify-content: center;
     }
     .main-wedo{
       position: relative;
