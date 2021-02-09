@@ -10,6 +10,8 @@
 
 .clients{
   display: block;
+
+
 }
  .main-title-h2 {
   display: block;
@@ -25,7 +27,10 @@
     .clients-list{
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      margin-left: -15px;
+      margin-top: -15px;
+
+
       @media (min-width:1200px) {
         flex-wrap: unset;
       }
@@ -35,6 +40,9 @@
     .clients-link{
       margin-top: 15px;
       width: 210px;
+      margin-left: 15px;
+      margin-top: 15px;
+      flex-basis: calc(100% / 2 - 30px);
 
       @media (min-width:1200px) {
         margin-top: unset;
@@ -47,9 +55,9 @@
 
       
       }
-    .clients-link:not(:last-child){
-      margin-right: 30px;
-    }
+    // .clients-link:not(:last-child){
+    //   margin-right: 30px;
+    // }
 
   .clients-master {
     display: flex;

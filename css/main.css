@@ -972,9 +972,8 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin-left: -15px;
+  margin-top: -15px;
 }
 
 @media (min-width: 1200px) {
@@ -987,6 +986,10 @@ header {
 .clients-link {
   margin-top: 15px;
   width: 210px;
+  margin-left: 15px;
+  margin-top: 15px;
+  -ms-flex-preferred-size: calc(100% / 2 - 30px);
+      flex-basis: calc(100% / 2 - 30px);
 }
 
 @media (min-width: 1200px) {
@@ -998,10 +1001,6 @@ header {
 
 .clients-link:nth-child(2n + 1) {
   margin-right: 15px;
-}
-
-.clients-link:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients-master {
