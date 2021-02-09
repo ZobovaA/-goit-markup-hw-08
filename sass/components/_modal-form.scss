@@ -1,15 +1,18 @@
 .form-group {
+  
+  @media (min-width:768px) {
+    max-width: 370px;
     display: flex;
     flex-direction: column;
-    max-width: 448px;
     margin: 0 auto;
     padding-bottom: 40px;
     padding-top: 40px;
-
-    @media (min-width:768px) {
-      max-width: 370px;
-    }
   }
+  @media (min-width:1200px) {
+    max-width: 448px;
+    
+  }
+}
   
   .form-name{
     margin-bottom: 4px;
@@ -27,10 +30,17 @@
     letter-spacing: 0.01em;
     color: #757575;
   }
-
-
-    
+.chek-text{
+ width: 346px;
+ height: 14px;
+ font-family: var($main-font-family);
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 1.16;
  
+}   
+
+
 
   label {
     display: flex;
