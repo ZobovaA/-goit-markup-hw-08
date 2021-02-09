@@ -446,8 +446,13 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -551,7 +556,7 @@ header {
 
 @media (min-width: 768px) {
   .footer-contacts {
-    margin-left: 76px;
+    margin-left: 0 auto;
   }
 }
 
@@ -995,6 +1000,19 @@ header {
       flex-basis: calc(100% / 2 - 30px);
 }
 
+@media (min-width: 768px) {
+  .clients-link {
+    width: 226px;
+    -ms-flex-preferred-size: calc(100% / 3 - 30px);
+        flex-basis: calc(100% / 3 - 30px);
+    margin-left: 15px;
+    margin-top: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @media (min-width: 1200px) {
   .clients-link {
     margin-top: unset;
@@ -1004,6 +1022,12 @@ header {
 
 .clients-link:nth-child(2n + 1) {
   margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .clients-link:nth-child(2n + 1) {
+    margin-right: unset;
+  }
 }
 
 .clients-master {
@@ -1027,6 +1051,12 @@ header {
 
 .clients-master:hover, .clients-master:focus {
   color: #2196f3;
+}
+
+@media (min-width: 768px) {
+  .clients-master {
+    width: 226px;
+  }
 }
 
 @media (min-width: 1200px) {

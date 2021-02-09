@@ -5,7 +5,8 @@
 
   @media (min-width:768px){
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 
     @media (min-width:1200px) {
       flex-wrap:unset;
@@ -95,7 +96,7 @@
   .footer-contacts{
 margin-bottom: 60px;
 @media (min-width:768px) {
-margin-left: 76px;
+margin-left: 0 auto;
 @media (min-width:1200px) {
   margin-right: 70px;
   margin-left: unset;
