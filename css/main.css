@@ -712,6 +712,7 @@ header {
     left: unset;
     -webkit-transform: unset;
             transform: unset;
+    margin-top: unset;
   }
 }
 
