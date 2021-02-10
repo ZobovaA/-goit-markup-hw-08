@@ -1,0 +1,31 @@
+.mobile-backdrop{
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.mobile-modal{
+    
+margin: 0 auto;
+width: 420px;
+height: 700px;
+position: absolute;
+background-color: #fff;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%) scaleX(1);
+
+}
+    
+.item-links-mobile{
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 1.8;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
