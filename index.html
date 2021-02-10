@@ -25,9 +25,9 @@
           <a class="logo" href="./index.html" title="WebStudio"
           >Web<span class="logo-colortext">Studio</span></a
         >
-        <button class="header_button">
+        <button class="header_button" data-mobile-menu-open>
           <svg class="header_menu_icon">
-            <use href=./images/symbol-defs.svg#icon-menu_40px >
+            <use href="./images/symbol-defs.svg#icon-menu_40px ">
 
             </use>
           </svg>
@@ -472,13 +472,13 @@
               </span>
             </div>
             </label>
-
+</form>
         </div>
       </div>
     </footer>
 
     <!--Menu-->
-    <div class="mobile-backdrop"> <div class="mobile-modal">
+    <div class="mobile-backdrop is-hidden"  data-mobile-menu> <div class="mobile-modal">
 
       <nav class="nav-section-mobile">
         <ul class="header-nav-links-mobile">
@@ -499,17 +499,17 @@
         </ul>
       </nav>
 
-      <button class="button-close" >
+      <button class="button-close" data-mobile-menu-close type="button">
         <svg class="icon-close">
           <use href="./images/symbol-defs.svg#icon-close-black"></use>
         </svg>
-
+      </button>
   
     </div>
     </div> 
 
     <!--Бэкдроп-->
-    <div data-modal class="backdrop is-hidden"><div class="modal">
+    <div data-modal class="backdrop "><div class="modal">
       <form class="form" name="order">
         <div class="form-group"> 
         <p class="contact-details">Оставьте свои данные, мы вам перезвоним</p>
@@ -553,8 +553,8 @@
         </label>
         <label>
           <div class="name">Комментарий</div>
-          <textarea class="comments"name="comments" rows="5" placeholder="Введите текст"></textarea>
-        </label>
+          <textarea class="comments" name="comments" rows="5" placeholder="Введите текст"></textarea>
+          </label>
         <label>
         <div class="check">
         <input type="checkbox" class="input old-check visually-hidden" />
@@ -574,6 +574,7 @@
         <svg class="icon-close">
           <use href="./images/symbol-defs.svg#icon-close-black"></use>
         </svg>
+      </button>
        </div></div>
   
   

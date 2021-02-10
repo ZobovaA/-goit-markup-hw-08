@@ -7,7 +7,7 @@
 }
 
 .mobile-modal{
-    
+display: flex;  
 margin: 0 auto;
 width: 420px;
 height: 700px;
@@ -19,12 +19,17 @@ transform: translate(-50%, -50%) scaleX(1);
 
 }
 
-.nav-section-mobile{
+
+
+.header-nav-links-mobile{
     display: flex;
     flex-direction: column;
-    justify-content: start;
-}
+    margin-left: 40px;
+    align-items: center;
     
+}    
+
+
 .item-links-mobile{
 font-style: normal;
 font-weight: 500;
@@ -33,7 +38,10 @@ line-height: 1.8;
 text-align: center;
 letter-spacing: 0.02em;
 color: #212121;
+font-style:normal;
+text-decoration: none;
 }
+
 
 .item-links-mobile:not(:last-child){
 margin-bottom: 32px;

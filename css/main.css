@@ -2006,6 +2006,9 @@ label {
 }
 
 .mobile-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin: 0 auto;
   width: 420px;
   height: 700px;
@@ -2017,7 +2020,7 @@ label {
           transform: translate(-50%, -50%) scaleX(1);
 }
 
-.nav-section-mobile {
+.header-nav-links-mobile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2025,9 +2028,10 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  margin-left: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .item-links-mobile {
@@ -2038,6 +2042,8 @@ label {
   text-align: center;
   letter-spacing: 0.02em;
   color: #212121;
+  font-style: normal;
+  text-decoration: none;
 }
 
 .item-links-mobile:not(:last-child) {
