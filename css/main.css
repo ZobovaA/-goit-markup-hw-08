@@ -2064,12 +2064,4 @@ label {
   font-style: normal;
   text-decoration: none;
 }
-
-.item-links-mobile:not(:last-child) {
-  margin-bottom: 32px;
-}
-
-.nav-section-mobile {
-  margin-top: 48px;
-}
 /*# sourceMappingURL=main.css.map */

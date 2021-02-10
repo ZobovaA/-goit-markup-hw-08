@@ -1,9 +1,9 @@
 .mobile-backdrop{
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
+position: fixed;
+right: 0;
+top: 0;
+left: 0;
+bottom: 0;
 }
 
 .mobile-modal{
@@ -22,10 +22,10 @@ transform: translate(-50%, -50%) scaleX(1);
 
 
 .header-nav-links-mobile{
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    align-items: center;
+display: flex;
+flex-direction: column;
+margin-left: 40px;
+align-items: center;
     
 }    
 
@@ -42,11 +42,3 @@ font-style:normal;
 text-decoration: none;
 }
 
-
-.item-links-mobile:not(:last-child){
-margin-bottom: 32px;
-}
-
-.nav-section-mobile{
-    margin-top: 48px;
-}
