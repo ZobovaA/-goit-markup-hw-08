@@ -1054,8 +1054,8 @@ header {
 @media (min-width: 768px) {
   .clients-link {
     width: 226px;
-    -ms-flex-preferred-size: calc(100% / 3 - 30px);
-        flex-basis: calc(100% / 3 - 30px);
+    -ms-flex-preferred-size: calc(100% / 3 - 60px);
+        flex-basis: calc(100% / 3 - 60px);
     margin-left: 15px;
     margin-top: 15px;
     -webkit-box-align: center;
@@ -1577,8 +1577,11 @@ header {
           transform: scaleX(0);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   .modal {
+    margin: 0 auto;
+    width: 450px;
+    height: 609px;
     position: absolute;
     background-color: #fff;
     -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -1591,8 +1594,6 @@ header {
     transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    width: 450px;
-    height: 609px;
   }
 }
 
@@ -1638,7 +1639,7 @@ header {
   text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   .form-group {
     max-width: 370px;
     display: -webkit-box;
