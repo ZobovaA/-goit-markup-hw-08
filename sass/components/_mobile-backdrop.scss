@@ -18,6 +18,12 @@ top: 50%;
 transform: translate(-50%, -50%) scaleX(1);
 
 }
+
+.nav-section-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
     
 .item-links-mobile{
 font-style: normal;
@@ -26,6 +32,13 @@ font-size: 40px;
 line-height: 1.8;
 text-align: center;
 letter-spacing: 0.02em;
-
 color: #212121;
+}
+
+.item-links-mobile:not(:last-child){
+margin-bottom: 32px;
+}
+
+.nav-section-mobile{
+    margin-top: 48px;
 }

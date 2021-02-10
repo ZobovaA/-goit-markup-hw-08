@@ -2017,6 +2017,19 @@ label {
           transform: translate(-50%, -50%) scaleX(1);
 }
 
+.nav-section-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
 .item-links-mobile {
   font-style: normal;
   font-weight: 500;
@@ -2025,5 +2038,13 @@ label {
   text-align: center;
   letter-spacing: 0.02em;
   color: #212121;
+}
+
+.item-links-mobile:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.nav-section-mobile {
+  margin-top: 48px;
 }
 /*# sourceMappingURL=main.css.map */
