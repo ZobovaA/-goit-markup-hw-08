@@ -2027,8 +2027,8 @@ label {
   display: flex;
   margin: 0 auto;
   padding: 48px 40px;
-  width: 420px;
-  height: 700px;
+  width: 480px;
+  height: 796px;
   position: absolute;
   background-color: #fff;
   left: 50%;
@@ -2072,6 +2072,10 @@ label {
   font-style: normal;
 }
 
+.mobile-number-link {
+  margin-bottom: 32px;
+}
+
 .mobile-adress {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2087,20 +2091,7 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.mobile-links-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  margin-top: 64px;
 }
 
 .mobile-social-item {
@@ -2110,7 +2101,6 @@ label {
 }
 
 .mobile-link_a {
-  display: block;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;

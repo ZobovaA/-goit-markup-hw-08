@@ -11,8 +11,8 @@ bottom: 0;
 display: flex;  
 margin: 0 auto;
 padding: 48px 40px;
-width: 420px;
-height: 700px;
+width: 480px;
+height: 796px;
 position: absolute;
 background-color: #fff;
 left: 50%;
@@ -58,6 +58,11 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-decoration: none;
 font-style: normal;
+
+}
+
+.mobile-number-link{
+    margin-bottom: 32px;
 }
 
 .mobile-adress{
@@ -69,14 +74,11 @@ font-style: normal;
 
 .mobile-social-links{
     display: flex;
-    flex-direction: row;
+    margin-top: 64px;
+   
 
 }
 
-.mobile-links-block{
-    display: flex;
-    flex-direction: column; 
-}
 
 .mobile-social-item {
     margin-right: 10px;
@@ -85,7 +87,6 @@ font-style: normal;
   }
 
   .mobile-link_a{
-    display: block;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
