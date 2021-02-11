@@ -2027,6 +2027,12 @@ label {
   bottom: 0;
 }
 
+@media (min-width: 768px) {
+  .mobile-backdrop {
+    display: none;
+  }
+}
+
 .mobile-modal {
   display: -webkit-box;
   display: -ms-flexbox;
