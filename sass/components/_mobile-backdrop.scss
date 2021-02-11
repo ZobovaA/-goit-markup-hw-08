@@ -7,8 +7,10 @@ bottom: 0;
 }
 
 .mobile-modal{
+
 display: flex;  
 margin: 0 auto;
+padding: 48px 40px;
 width: 420px;
 height: 700px;
 position: absolute;
@@ -21,7 +23,7 @@ transform: translate(-50%, -50%) scaleX(1);
  
 
 
-.item-links-mobile{
+.links-mobile{
 font-style: normal;
 font-weight: 500;
 font-size: 40px;
@@ -31,5 +33,37 @@ letter-spacing: 0.02em;
 color: #212121;
 font-style:normal;
 text-decoration: none;
+}
+
+.links-mobile-email{
+font-weight: 500;
+font-size: 24px;
+line-height: 1.16;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration: none;
+font-style: normal;
+
+}
+
+.current-mobile{
+color: #2196F3;
+
+}
+
+.mobile-number {
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-decoration: none;
+font-style: normal;
+}
+
+.mobile-adress{
+    display: flex;
+    flex-direction: column;
+    margin-top: 302px;
+    
 }
 
