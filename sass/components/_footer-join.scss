@@ -52,3 +52,9 @@
 }
 
 }
+
+.m-link-footer:hover,
+.m-link-footer:focus{
+    background-color: $accent-color;
+    color: #ffffff;
+}

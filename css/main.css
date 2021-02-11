@@ -1571,6 +1571,12 @@ header {
   margin-bottom: 20px;
 }
 
+.m-link-footer:hover,
+.m-link-footer:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
 .backdrop {
   position: fixed;
   color: black;
