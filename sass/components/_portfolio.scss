@@ -1,15 +1,18 @@
-.portfolio-section {
-  padding-bottom: 60px;
-  padding-top: 60px;
 
-  @media (min-width:1200px) {
-    padding-bottom: 94px;
-    padding-top: 94px;  
-  }
-}
 
 .portfolio-container{
   display: block;
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+ 
+  @media (min-width:1200px) {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    padding-top: 94px;
+  }
+  
 }
 
 .portfolio-items{
@@ -76,11 +79,12 @@ margin-bottom: 15px;
     }
 
     @media (min-width:1200px) {
-       justify-content: center;
-        margin-left: -30px;
-        margin-top: -30px;
-        flex-basis: calc((100%-60) / 3);
       
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;     
     }
 
   }
@@ -91,17 +95,22 @@ margin-bottom: 15px;
 
   @media(min-width:768px){
     .portfolio-card-set-items:nth-child(2n+1){
-      margin-right: 15px;
+      margin-right: 30px;
     }
   
 
     }
 
     @media (min-width:1200px) {
-      .portfolio-card-set-items:not(:last-child){
+      .portfolio-card-set-items:not(:nth-last-child(-n + 3)) {
         margin-right: 30px;
        }
+       .portfolio-card-set-items:not(:nth-child(3n)) {
+        margin-right: 30px;
+      }
     }
+
+
   .portfolio-card-set-items  {
     width: 450px;
     border: 1px solid #EEEEEE;

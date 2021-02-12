@@ -9,8 +9,12 @@
     mobileMenu: document.querySelector('[data-mobile-menu]'),
   };
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+  if (refs.openModalBtn) {
+    refs.openModalBtn.addEventListener('click', toggleModal);
+  }
+  if (refs.closeModalBtn) {
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+  }
   
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
