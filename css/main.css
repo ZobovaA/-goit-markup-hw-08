@@ -738,6 +738,13 @@ header {
   padding-top: 60px;
 }
 
+@media (min-width: 1200px) {
+  .portfolio-section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
+
 .portfolio-container {
   display: block;
 }
@@ -1009,7 +1016,7 @@ header {
 
 @media (min-width: 1200px) {
   .main-section-clients {
-    padding-top: 94x;
+    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -1200,7 +1207,6 @@ header {
 
 @media (min-width: 1200px) {
   .main-advant-list {
-    width: 1170px;
     -ms-flex-wrap: unset;
         flex-wrap: unset;
     -webkit-box-pack: center;
@@ -1287,11 +1293,15 @@ header {
 }
 
 .main-section-our-advantages {
+  margin-left: 0;
+  margin-right: 0;
   padding-top: 60px;
 }
 
 @media (min-width: 1200px) {
   .main-section-our-advantages {
+    margin-left: 0;
+    margin-right: 0;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1312,6 +1322,12 @@ header {
   line-height: 1.19;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .main-advantages-title {
+    text-align: unset;
+  }
 }
 
 .our-team {
@@ -1981,7 +1997,7 @@ label {
 
 @media (min-width: 768px) and (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
 }
 
