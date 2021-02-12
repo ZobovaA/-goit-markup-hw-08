@@ -1047,7 +1047,6 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: -15px;
   margin-top: -15px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1571,6 +1570,12 @@ header {
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
+}
+
+@media (min-width: 1200px) {
+  .footer-welcom .footer-join {
+    margin-left: unset;
+  }
 }
 
 .footer-welcom .clients-list-f {

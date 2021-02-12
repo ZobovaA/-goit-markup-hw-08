@@ -34,6 +34,10 @@
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
+
+  @media (min-width:1200px) {
+    margin-left: unset;
+  }
 }
 .clients-list-f {
   display: flex;
