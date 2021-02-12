@@ -91,6 +91,8 @@ margin-bottom: 15px;
   
   .portfolio-card-set-items:not(:last-child){
     margin-bottom: 30px;
+
+  
    }
 
   @media(min-width:768px){
@@ -107,6 +109,10 @@ margin-bottom: 15px;
        }
        .portfolio-card-set-items:not(:nth-child(3n)) {
         margin-right: 30px;
+      }
+
+      .portfolio-card-set-items{
+        margin-bottom: 30px;
       }
     }
 
