@@ -28,48 +28,39 @@
     .clients-list{
       display: flex;
       flex-wrap: wrap;
-      // margin-left: -15px;
-      margin-top: -15px;
-      justify-content: center;
+      width: 480px;
+      margin: -15px;
 
-
-      @media (min-width:1200px) {
-        flex-wrap: unset;
+      @media screen and (min-width: 768px) {
+        width: 768px;
+        margin: -15px;
       }
 
+      @media (min-width: 1200px) {
+        flex-wrap: nowrap;
+        width: 1200px;
+        margin: 0;
       }
-
+    }
     .clients-link{
-      margin-top: 15px;
-      width: 210px;
-      margin-left: 15px;
-      margin-top: 15px;
-      flex-basis: calc(100% / 2 - 30px);
-
-      @media (min-width:768px) {
-        width: 226px;
-        flex-basis: calc(100% / 3 - 60px);
-        margin-left: 15px;
-        margin-top: 15px;
-        align-items: center;
-      }
-
-      @media (min-width:1200px) {
-        margin-top: unset;
-        width: 170px;
-      }
-
-      }
-      .clients-link:nth-child(2n + 1) {
-      margin-right: 15px;
-      @media (min-width:768px) {
-        margin-right: unset;
-      }
-      }
-     
-  
+        width: calc((100% - 2 * 30px) / 2);
+        margin: 15px;
+        @media  (min-width: 768px) {
+        width: calc((100% - 3 * 30px) / 3);
+        }
     
 
+    @media(min-width: 1200px) {
+    width: 170px;
+    margin: 0 30px 0 0;
+    &:last-child {
+      margin: 0;
+    }
+    }
+  }
+
+
+     
 
   .clients-master {
     display: flex;
