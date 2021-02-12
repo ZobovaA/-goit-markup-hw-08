@@ -1536,13 +1536,6 @@ header {
   }
 }
 
-@media (min-width: 768px) and (min-width: 1200px) {
-  .footer-welcom {
-    padding-bottom: unset;
-    margin-left: unset;
-  }
-}
-
 .footer-welcom .footer-form-block {
   margin: 0 auto;
 }
@@ -1575,6 +1568,12 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .footer-welcom .clients-list-f {
+    width: 206px;
+  }
 }
 
 .footer-welcom .f-icon:not(:last-child) {

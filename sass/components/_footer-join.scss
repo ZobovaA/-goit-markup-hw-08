@@ -8,8 +8,8 @@
       margin-left: 165px;
     }
     @media (min-width:1200px) {
-     padding-bottom: unset;
-     margin-left: unset;
+    //  padding-bottom: unset;
+    //  margin-left: unset;
     }
     
 }
@@ -39,10 +39,15 @@
     margin-left: unset;
   }
 }
+
 .clients-list-f {
   display: flex;
   margin-top: 20px;
   justify-content: center;
+
+  @media (min-width:1200px) {
+    width: 206px ;
+  }
 }
 
 .f-icon:not(:last-child) {
