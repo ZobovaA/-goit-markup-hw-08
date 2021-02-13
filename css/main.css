@@ -892,6 +892,12 @@ header {
   }
 }
 
+@media (min-width: 1200px) {
+  .portfolio-card-set-items:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+}
+
 .portfolio-card-link {
   display: inline-block;
 }
