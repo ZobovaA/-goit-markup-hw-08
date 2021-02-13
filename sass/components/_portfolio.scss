@@ -97,9 +97,9 @@
     &:not(:last-child){
       margin-bottom: 30px;
 
-      @media (min-width:1200px){
-        margin-bottom: unset;
-      }
+      // @media (min-width:1200px){
+      //   margin-bottom: unset;
+      // }
   
      }
 
@@ -137,11 +137,11 @@
 
 }
 
-// .portfolio-card-set-item:not(:nth-last-child(-n + 3)){
-//   @media (min-width:1200px) {
-//     margin-bottom: 30px;
-//   }
-// }
+.portfolio-card-set-item:not(:nth-last-child(-n + 3)){
+  @media (min-width:1200px) {
+    margin-bottom: 30px;
+  }
+}
 
 // @media(min-width:1200px){
 //   .portfolio-card-set-item:not(:nth-last-child(-n + 3)) {
