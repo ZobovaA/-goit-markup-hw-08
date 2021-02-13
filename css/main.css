@@ -443,16 +443,9 @@ header {
 
 @media (min-width: 768px) {
   .footer-main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -566,7 +559,7 @@ header {
 
 @media (min-width: 768px) {
   .footer-contacts {
-    margin-left: 0 auto;
+    margin-left: 76px;
   }
 }
 
@@ -1532,7 +1525,8 @@ header {
 }
 
 @media (min-width: 768px) {
-  .footer-welcom .footer-welcom {
+  .footer-welcom {
+    width: 206px;
     margin-left: 165px;
   }
 }
@@ -1540,6 +1534,7 @@ header {
 @media (min-width: 768px) and (min-width: 1200px) {
   .footer-welcom {
     padding-bottom: unset;
+    margin-left: unset;
   }
 }
 

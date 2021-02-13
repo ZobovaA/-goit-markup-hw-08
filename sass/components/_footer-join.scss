@@ -4,11 +4,13 @@
   
 
   @media(min-width:768px){
-    .footer-welcom{
+  
+      width: 206px;
       margin-left: 165px;
-    }
+   
     @media (min-width:1200px) {
      padding-bottom: unset;
+     margin-left: unset;
     
     }
     
