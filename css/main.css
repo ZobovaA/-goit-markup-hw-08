@@ -850,6 +850,9 @@ header {
   .portfolio-card-set .portfolio-card-set-items {
     margin-bottom: 30px;
   }
+  .portfolio-card-set .portfolio-card-set-items:last-child {
+    margin-bottom: unset;
+  }
 }
 
 @media (min-width: 768px) {

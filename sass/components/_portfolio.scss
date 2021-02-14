@@ -87,6 +87,10 @@
     border: 1px solid #EEEEEE;
     @media (min-width:480px) {
       margin-bottom: 30px;
+
+      &:last-child{
+        margin-bottom: unset;
+      }
     }
 
 
