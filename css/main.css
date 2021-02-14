@@ -846,13 +846,15 @@ header {
   border: 1px solid #EEEEEE;
 }
 
-.portfolio-card-set .portfolio-card-set-items:not(:last-child) {
-  margin-bottom: 30px;
+@media (min-width: 480px) {
+  .portfolio-card-set .portfolio-card-set-items {
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 768px) {
   .portfolio-card-set .portfolio-card-set-items {
-    width: calc((100% - 6 * 15px) / 2);
+    width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
 }
